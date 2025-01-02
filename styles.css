@@ -19,7 +19,12 @@ header {
 header .logo-container {
     max-width: 150px;
     margin: 0 auto;
+}
+
+header .logo-background {
+    background-color: white; /* Add a contrasting background for the logo */
     padding: 1rem;
+    border-radius: 50%;
 }
 
 header .logo {
