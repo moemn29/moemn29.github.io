@@ -73,7 +73,7 @@ section h2 {
 
 /* About Section */
 .about-logo-container {
-    max-width: 200px;
+    max-width: 250px; /* Increase the size of the logo */
     margin: 0 auto;
     text-align: center;
 }
@@ -85,6 +85,11 @@ section h2 {
 .about-description {
     max-width: 600px;
     margin: 2rem auto 0;
+    text-align: left; /* Align text to the left */
+}
+
+.about-description p {
+    margin-bottom: 1rem; /* Add space between paragraphs */
 }
 
 /* Projects Section */
@@ -166,57 +171,4 @@ button:hover {
 /* Responsive Video */
 .responsive-video {
     width: 100%;
-    height: auto;
-}
-
-/* Contact Section */
-#contact p {
-    font-size: 1.2rem;
-    color: #333;
-    margin: 1rem 0;
-}
-
-#contact a {
-    color: #8A2BE2; /* Violet color */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Section */
-footer {
-    background: #4B0082; /* Dark Violet */
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    #projects .media-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header h1 {
-        font-size: 2rem;
-    }
-
-    header p {
-        font-size: 1rem;
-    }
-}
+    height: auto
