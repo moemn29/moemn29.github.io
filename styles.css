@@ -72,19 +72,29 @@ section h2 {
 }
 
 /* About Section */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+}
+
 .about-logo-container {
-    max-width: 300px;
-    margin: 0 auto 2rem;
+    flex: 1;
+    text-align: center;
 }
 
 .about-logo {
+    max-width: 200px;
     width: 100%;
-    display: block;
+}
+
+.about-description {
+    flex: 2;
+    padding: 1rem;
 }
 
 #about p {
-    max-width: 600px;
-    margin: 0 auto;
     font-size: 1.1rem;
     line-height: 1.8;
     color: #555;
@@ -197,5 +207,14 @@ footer p {
 
     header p {
         font-size: 1rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-description {
+        padding: 0;
     }
 }
