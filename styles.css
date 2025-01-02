@@ -16,10 +16,15 @@ header {
     text-align: center;
 }
 
-header .logo {
+header .logo-container {
     max-width: 150px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header .logo {
+    width: 100%;
     display: block;
-    margin: 0 auto 1rem;
 }
 
 header h1 {
