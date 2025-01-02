@@ -10,10 +10,16 @@ body {
 
 /* Header Section */
 header {
-    background: #4CAF50;
+    background: #8A2BE2; /* Violet color */
     color: white;
     padding: 1rem 0;
     text-align: center;
+}
+
+header .logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 1rem;
 }
 
 header h1 {
@@ -28,7 +34,7 @@ header p {
 
 /* Navigation Bar */
 nav {
-    background: #333;
+    background: #4B0082; /* Dark Violet */
     color: white;
     text-align: center;
     padding: 0.5rem 0;
@@ -124,7 +130,7 @@ section h2 {
 
 /* Buttons */
 button {
-    background: #4CAF50;
+    background: #8A2BE2; /* Violet color */
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -135,7 +141,7 @@ button {
 }
 
 button:hover {
-    background: #45a049;
+    background: #7A1EA1; /* Darker Violet */
 }
 
 /* Contact Section */
@@ -146,7 +152,7 @@ button:hover {
 }
 
 #contact a {
-    color: #4CAF50;
+    color: #8A2BE2; /* Violet color */
     text-decoration: none;
     font-weight: bold;
 }
@@ -157,7 +163,7 @@ button:hover {
 
 /* Footer Section */
 footer {
-    background: #333;
+    background: #4B0082; /* Dark Violet */
     color: white;
     text-align: center;
     padding: 1rem 0;
