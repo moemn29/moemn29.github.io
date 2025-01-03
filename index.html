@@ -1,100 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm Moemn Ehab Bakr, a passionate Software Tester.</p>
-        </div>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <div class="container">
-            <div class="about-logo-container">
-                <img src="logo-removebg-preview.png" alt="Moemn Bakr Logo" class="about-logo">
-            </div>
-            <div class="about-description">
-                <h2>About Me</h2>
-                <p>Hello! I'm Moemn Ehab Bakr, a skilled software tester with expertise in automation and quality assurance. I have a passion for finding and solving issues to ensure software meets the highest standards. My experience includes working on various projects where I have successfully implemented automated testing frameworks, created detailed test plans, and collaborated with development teams to improve product quality. I am always eager to learn and stay updated with the latest industry trends and technologies.</p>
-            </div>
-        </div>
-    </section>
-    <section id="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="media-container">
-                <div class="media-item">
-                    <h3>Admin Event Module</h3>
-                    <p>This project focuses on API testing for the Admin Event Module. It includes a detailed test plan, bug reports, and analysis of API functionality through endpoints provided in the Swagger documentation.</p>
-                    <button onclick="window.open('Test Plan for Admin Event Module.pdf')">View Test Plan</button>
-                    <button onclick="window.open('Admin Event Module Bugs Report.xlsx')">View Bug Report</button>
-                    <a href="Capture.JPG" target="_blank">
-                        <img src="Capture.JPG" alt="Swagger Admin Event Module Screenshot">
-                    </a>
-                </div>
-                <div class="media-item">
-                    <h3>Automation Sample</h3>
-                    <p>A Selenium-based automation project for Amazon.eg using Page Object Model (POM) and TestNG. It automates searching, selecting items, adding to a wishlist, and validates user redirection to the login page for non-registered users. Includes WebDriverManager for efficient setup and robust test scenarios.</p>
-                    <button onclick="window.open('https://github.com/moemn29/Amazon', '_blank')">View on GitHub</button>
-                    <video controls class="responsive-video">
-                        <source src="automation sample.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-                <div class="media-item">
-                    <h3>Manage Agent Module Documentation</h3>
-                    <p>This project involves detailed documentation for the "Manage Agent Module". It includes comprehensive guides, screenshots, and step-by-step instructions to help users manage agents effectively.</p>
-                    <button onclick="window.open('“Manage Agents” Module Documentation.pdf')">View Doc</button>
-                    <div class="slider">
-                        <a href="doc display 1.JPG" target="_blank"><img src="doc display 1.JPG" alt="Document Display 1"></a>
-                        <a href="doc display 2.JPG" target="_blank"><img src="doc display 2.JPG" alt="Document Display 2"></a>
-                        <a href="doc display 3.JPG" target="_blank"><img src="doc display 3.JPG" alt="Document Display 3"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>Feel free to reach out to me at <a href="mailto:moemnehab20@gmail.com">moemnehab20@gmail.com</a> or call me at <a href="tel:+201273184117">+20 1273184117</a>.</p>
-            <p>Check out my profiles on <a href="https://github.com/moemn29" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/moemn-ehab" target="_blank">LinkedIn</a>.</p>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Moemn Ehab Bakr. All Rights Reserved.</p>
-        </div>
-    </footer>
-    <script>
-        $(document).ready(function(){
-            $('.slider').slick({
-                arrows: true,
-                dots: false,
-                infinite: true,
-                speed: 300,
-                slidesToShow: 1,
-                adaptiveHeight: true,
-                prevArrow: '<button type="button" class="slick-prev"></button>',
-                nextArrow: '<button type="button" class="slick-next"></button>',
-            });
-        });
-    </script>
+  <header>
+    <h1>Moemen Badr</h1>
+    <p>Software Tester Portfolio</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Moemen Badr, a skilled software tester...</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="media-container">
+      <div class="media-item">
+        <h3>Admin Event Module</h3>
+        <p>This project focuses on API testing...</p>
+        <button>View Test Plan</button>
+        <button>View Bug Report</button>
+      </div>
+      <div class="media-item">
+        <h3>Automation Sample</h3>
+        <p>A Selenium-based automation project...</p>
+        <video class="responsive-video" controls>
+          <source src="sample.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="media-item">
+        <h3>Manage Agent Module</h3>
+        <p>This project includes detailed documentation...</p>
+        <button>View Doc</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact Me: <a href="mailto:moemnbadr29@gmail.com">moemnbadr29@gmail.com</a> | <a href="tel:+201277318417">+20 1277318417</a></p>
+  </footer>
 </body>
 </html>
