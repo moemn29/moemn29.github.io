@@ -244,7 +244,7 @@ footer p {
 }
 
 #resume button {
-    background: #007bff;
+    background: #4B0082;
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
@@ -255,7 +255,7 @@ footer p {
 }
 
 #resume button:hover {
-    background: #0056b3;
+    background: #8A2BE2;
 }
 
 /* Responsive Design */
