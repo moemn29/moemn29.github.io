@@ -237,6 +237,27 @@ footer p {
     font-size: 0.9rem;
 }
 
+#resume {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+#resume button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#resume button:hover {
+    background: #0056b3;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
