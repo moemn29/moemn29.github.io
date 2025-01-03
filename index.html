@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 </head>
 <body>
     <header>
@@ -53,6 +56,16 @@
                         Your browser does not support the video tag.
                     </video>
                 </div>
+                <div class="media-item">
+                    <h3>Manage Agent Module Documentation</h3>
+                    <p>This project involves detailed documentation for the "Manage Agent Module". It includes comprehensive guides, screenshots, and step-by-step instructions to help users manage agents effectively.</p>
+                    <button onclick="window.open('Manage Agents Module Documentation.pdf')">View Doc</button>
+                    <div class="slider">
+                        <a href="doc display 1.JPG" target="_blank"><img src="doc display 1.JPG" alt="Document Display 1"></a>
+                        <a href="doc display 2.JPG" target="_blank"><img src="doc display 2.JPG" alt="Document Display 2"></a>
+                        <a href="doc display 3.JPG" target="_blank"><img src="doc display 3.JPG" alt="Document Display 3"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -68,5 +81,16 @@
             <p>&copy; 2024 Moemn Ehab Bakr. All Rights Reserved.</p>
         </div>
     </footer>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+        });
+    </script>
 </body>
 </html>
