@@ -138,4 +138,126 @@ section h2 {
 }
 
 #projects .media-item h3 {
-    margin[_{{{CITATION{{{_1{](https://github.com/fireun/Masomon-Online-Shopping/tree/6fa264f2c43c095aa821a7eafd80b8ca66a77afe/user%2FcancellationRequest.php)[_{{{CITATION{{{_2{](https://github.com/Ravisurelia/exercises/tree/ab5454e29391cd096d6dcb34d00b58ea26a45338/WEEK5%2Fportfolio%2Fmodule.js)[_{{{CITATION{{{_3{](https://github.com/solelyspoiledsoul/portfolio/tree/2f58487aa7c4edb1fa9245929efb50a52b921ecb/README.md)[_{{{CITATION{{{_4{](https://github.com/BrunoBrasolin/desafios-kbrtec/tree/f58229c58e76c78fff6b231a5e5200ef5820f61f/desafio-2%2Fincludes%2Ffooter.php)[_{{{CITATION{{{_5{](https://github.com/kacol24/litstack-cms/tree/72494a668ee84e7240ec32fb2a55e08c85b5dce7/resources%2Fviews%2Fprojects.blade.php)[_{{{CITATION{{{_6{](https://github.com/avacosistemas/kersantelmo/tree/203ea2cd41aa850d843d5562454273f1212c9a42/habitaciones_detalle.php)[_{{{CITATION{{{_7{](https://github.com/nicocagiao/DsD/tree/c201bece8981377cc985a29e5fb6e7b7b2b3bbf3/formato.php)[_{{{CITATION{{{_8{](https://github.com/joeynaor/joeynaor.github.io/tree/5846c9fb3a10a514dee97b29a1572a77689fd0ab/test.md)[_{{{CITATION{{{_9{](https://github.com/ananth243/ananth243.github.io/tree/36a729a07401832d43c584d97817c1c57b266b51/src%2Fcomponents%2FProfile%2FProfile.js)[_{{{CITATION{{{_10{](https://github.com/GrzLnx/MIST-RY/tree/250766905cc5108dc00aecb19eb1978078c1256d/resources%2Fviews%2Ftemplates%2Ftemplate-parts%2Fheader.blade.php)[_{{{CITATION{{{_11{](https://github.com/dariansharma/website/tree/ab551913d39d903f70fbed817b752ccf42e4a535/src%2Findex.js)
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#projects .media-item p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+#projects .media-item button,
+#projects .media-item a {
+    display: inline-block;
+    margin: 0.5rem 0;
+    color: #8A2BE2;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background: #8A2BE2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#projects .media-item button:hover,
+#projects .media-item a:hover {
+    background: #7A1EA1; /* Darker Violet */
+}
+
+/* Buttons */
+button {
+    background: #4B0082;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8A2BE2;
+}
+
+/* Footer */
+footer {
+    background: #4B0082;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #E6E6FA; /* Lavender */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #DDA0DD; /* Plum */
+}
+
+/* Responsive Video */
+.responsive-video {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+#contact a {
+    color: #8A2BE2; /* Violet color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background: #4B0082; /* Dark Violet */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #projects .media-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .about-description {
+        padding: 1rem; /* Ensure padding on mobile */
+    }
+}
